@@ -1,0 +1,12 @@
+<div class="projects">
+    <h2 class="heading">Projects</h2>
+    <div class="project-grid">
+      <div *ngFor="let project of projects" class="project-card">
+        <p-card header="{{ project.title }}" subheader="Subtitle">
+          <img src="{{ project.imageUrl }}" alt="{{ project.title }}" style="width: 100%;">
+          <p>{{ project.description }}</p>
+        </p-card>
+      </div>
+    </div>
+  </div>
+  

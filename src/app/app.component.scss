@@ -1,0 +1,29 @@
+/* app.component.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  
+  .page-section {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #home {
+    background-color: #f8f9fa; /* Example background color for home section */
+  }
+  
+  #about {
+    background-color: #e9ecef; /* Example background color for about section */
+  }
+  
+  app-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+  }

@@ -1,0 +1,22 @@
+.projects {
+    padding: 20px;
+    display: grid;
+    text-align: center;
+    // height: 50px;
+
+  }
+  
+  
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .project-card {
+      flex: 1 1 100%; /* Full width on small screens */
+    }
+  }
+  

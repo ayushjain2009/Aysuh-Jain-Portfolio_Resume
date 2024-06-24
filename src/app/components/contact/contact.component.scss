@@ -1,0 +1,109 @@
+.contact-container {
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .left-content {
+    flex: 1;
+  }
+  
+  .right-content {
+    flex: 1;
+  }
+  
+  .message {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+  //foooter css
+
+  /* Ensure the body and html take up the full height of the page */
+// html, body {
+//     height: 100%;
+//     margin: 0;
+//     width: 100%;
+//   }
+  
+  /* Container to ensure the footer sticks at the bottom */
+  .full-height-container {
+    display: flex;
+    flex-direction: column;
+    // min-height: 100vh;
+    margin-top: 150px;
+    min-width: 215.9vh
+  }
+  
+  /* Push the footer to the bottom */
+  .content {
+    flex: 1;
+  }
+  
+//   .sticky-toolbar {
+//     background-color: #f8f9fa; /* Optional: Customize the background color */
+//     width: 100%;
+//   }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center !important;
+  }
+  
+  .footer {
+    margin: 0;
+  }
+  
+  .footer-content h5 {
+    margin: 0;
+  }
+  

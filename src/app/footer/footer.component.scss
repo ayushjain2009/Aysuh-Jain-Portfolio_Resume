@@ -1,0 +1,41 @@
+/* Ensure the body and html take up the full height of the page */
+html, body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+  }
+  
+  /* Container to ensure the footer sticks at the bottom */
+  .full-height-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 215.9vh
+  }
+  
+  /* Push the footer to the bottom */
+  .content {
+    flex: 1;
+  }
+  
+  .sticky-toolbar {
+    background-color: #f8f9fa; /* Optional: Customize the background color */
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center !important;
+  }
+  
+  .footer {
+    margin: 0;
+  }
+  
+  .footer-content h5 {
+    margin: 0;
+  }
+  

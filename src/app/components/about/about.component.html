@@ -1,0 +1,44 @@
+<div class="about-container">
+    <div class="profile-photo">
+      <img src="assets/logo-image.jpg" alt="Profile" class="profile-pic">
+    </div>
+    <div class="description">
+      <h2>About Me</h2>
+      <p>Hello! I'm Ayush Jain, a passionate Frontend Developer with a keen eye for detail and a love for creating interactive and user-friendly web applications.</p>
+      <p>With a strong background in various frontend technologies, I aim to deliver seamless and engaging web experiences.</p>
+      <p>When I'm not coding, you can find me exploring the latest tech trends, contributing to open-source projects, or enjoying a good book.</p>
+    </div>
+  </div>
+  
+
+<div class="skil">
+  <div class="skills">
+    <h2>Skills</h2>
+    <div>
+      <ul>
+        <li *ngFor="let skill of skills">
+          {{ skill.name }}
+          <div class="rating-bar-container">
+            <div class="rating-bar" [style.width.%]="(skill.rating / 5) * 100"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<div class="professional-skills">
+  <h2>Professional-Skills</h2>
+    <div>
+      <ul>
+        <li *ngFor="let Pfskills of Pfskill">
+          {{ Pfskills.name }}
+          <div class="rating-bar-container">
+            <div class="rating-bar" [style.width.%]="(Pfskills.rating / 5) * 100"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+</div>
+  
+</div>
