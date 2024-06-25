@@ -10,9 +10,9 @@ export class ProjectsComponent {
 
   projects: Project[] = [
     {
-      title: 'Project 1',
-      description: 'Description for project 1.',
-      imageUrl: 'https://via.placeholder.com/150'
+      title: 'E-comm',
+      description: 'In ecommerc',
+      imageUrl: ''
     },
     {
       title: 'Project 2',

@@ -17,9 +17,9 @@ export class AboutComponent implements OnInit {
   ];
 
   Pfskill: Pfskills[] =[
-    { name: 'Java', rating: 4 },
-    { name: 'Spring', rating: 3 },
-    { name: 'Angular', rating: 5 },
+    { name: 'AWS', rating: 4 },
+    { name: 'Git', rating: 3 },
+    { name: 'React', rating: 5 },
     { name: 'quant', rating: 4 },
     { name: 'aptitude', rating: 3 }
   ]
